@@ -23,6 +23,6 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_KEY }}
           aws-region: us-east-1
           role-to-assume: ${{ secrets.AWS_ROLE_TO_ASSUME }}
-          role-duration-seconds: 600
+          role-duration-seconds: 900
           role-session-name: GitHubActionsDemoSession
       - run: echo "Did AWS configure work??? 11/12/21 -- update"
